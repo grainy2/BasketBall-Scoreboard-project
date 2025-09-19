@@ -1,21 +1,8 @@
+let score = 0
+let scoreEl = document.getElementById("score-el")
 
-let bonusPoint = 0
-let bonusEl = document.getElementById("bonus-el")
-
-
-function addOne(){
-    bonusPoint += 1 
-    bonusEl.textContent = bonusPoint
+function addition(){
+    score += 1
+    scoreEl.textContent = score
+    console.log(scoreEl.textContent)
 }
-
-function addTwo(){
-    bonusPoint += 2
-    bonusEl.textContent = bonusPoint
-}
-
-function addThree(){
-    bonusPoint += 3
-    bonusEl.textContent = bonusPoint
-}
-
-console.log(bonusPoint)

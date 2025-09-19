@@ -56,6 +56,7 @@ h2{
 }
 
 .bonus{
+    /* border: 1px solid red; */
     margin: 30px;
     width: 160px;
     display: flex;
@@ -64,7 +65,7 @@ h2{
     text-align: center;
 }
 
-.one{
+.add{
     border: 2px solid #9AABD8;
     background-color: #1B244A;
     font-size: 15px;
@@ -74,3 +75,9 @@ h2{
     font-family: 'Cursed Timer ULiL', sans-serif;
     color: #9AABD8 ;
 }
+
+/* .add{
+    background-color: #1B244A;
+    border: 1px solid #9AABD8;
+    
+} */
