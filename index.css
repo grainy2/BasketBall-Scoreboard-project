@@ -66,6 +66,8 @@ h2{
 
 .one{
     border: 2px solid #9AABD8;
+    background-color: #1B244A;
+    font-size: 15px;
     border-radius: 5px;
     width: 42px;
     height: 42px;
