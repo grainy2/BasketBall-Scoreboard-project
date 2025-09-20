@@ -1,8 +1,49 @@
-let score = 0
-let scoreEl = document.getElementById("score-el")
+ let score = 0
+ let homeEl = document.getElementById("home-el")
+ let guestEl = document.getElementById("guest-el")
 
-function addition(){
+ function addOne(){
     score += 1
-    scoreEl.textContent = score
-    console.log(scoreEl.textContent)
-}
+    homeEl.textContent = score
+ }
+
+ function addTwo(){
+    score += 2
+    homeEl.textContent = score
+ }
+
+ function addThree(){
+    score += 3
+    homeEl.textContent = score
+ }
+
+function guestOne(){
+    score += 1
+    guestEl.textContent = score
+ }
+
+ function guestTwo(){
+    score += 2
+    guestEl.textContent = score
+ }
+
+function guestThree(){
+    score += 3
+    guestEl.textContent = score
+ }
+
+
+ 
+
+
+
+
+
+// let scoreEl = document.getElementById("score-el")
+// let HomeScoreBtn = document.getElementById("one")
+
+// function addition(){
+//     score += 1
+//     scoreEl.textContent = score
+//     console.log(scoreEl.textContent)
+// }
