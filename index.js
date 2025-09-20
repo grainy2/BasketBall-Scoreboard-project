@@ -1,4 +1,5 @@
  let score = 0
+ let myScore = 0
  let homeEl = document.getElementById("home-el")
  let guestEl = document.getElementById("guest-el")
 
@@ -18,18 +19,18 @@
  }
 
 function guestOne(){
-    score += 1
-    guestEl.textContent = score
+    myScore += 1
+    guestEl.textContent = myScore
  }
 
  function guestTwo(){
-    score += 2
-    guestEl.textContent = score
+    myScore += 2
+    guestEl.textContent = myScore
  }
 
 function guestThree(){
-    score += 3
-    guestEl.textContent = score
+    myScore += 3
+    guestEl.textContent = myScore
  }
 
  function removeHome(){
@@ -38,12 +39,13 @@ function guestThree(){
  }
 
  function removeGuest(){
-    score -= 1
-    guestEl.textContent = score
+    myScore -= 1
+    guestEl.textContent = myScore
  }
 
  function resetPoint(){
     score = 0
+    myScore = 0
     homeEl.textContent = score
     guestEl.textContent = score
  }
