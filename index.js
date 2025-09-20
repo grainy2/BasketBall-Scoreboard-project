@@ -32,6 +32,21 @@ function guestThree(){
     guestEl.textContent = score
  }
 
+ function removeHome(){
+    score -= 1
+    homeEl.textContent = score
+ }
+
+ function removeGuest(){
+    score -= 1
+    guestEl.textContent = score
+ }
+
+ function resetPoint(){
+    score = 0
+    homeEl.textContent = score
+    guestEl.textContent = score
+ }
 
  
 
